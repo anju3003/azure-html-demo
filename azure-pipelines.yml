@@ -25,6 +25,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: '$(azureSubscription)'
-    appName: '$(webAppName)'
+    azureSubscription: 'My_first-connection'
+    appName: 'webappdemofirst'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
